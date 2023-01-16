@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: "Rubik";
+            font-size: 24px;
+            src: url(Rubik-Bold.ttf);
+        }
+        *{
+           font-family: Rubik;
+           font-weight: 450;
+           font-size: 16px;
+        }
+        .b{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .box{
+            transform: matrix(10px, 10px, 10px);
+            max-width: 1300px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;      /* flexs the contents of the div */
+            flex-wrap: wrap;  /* makes the div dynamic */
+            justify-content: space-around;  /* fixes the div in the center */
+        }
+        .card{
+            /* width: 400px;
+            height: 377px; */
+            background-color: #181A1B;
+            /* border: 1 solid #fff; */
+            box-shadow: 0px 0px 0.000001px 0.5px rgb(77, 76, 76);
+            border-radius: 4px;
+            max-width: 250px;
+            max-height: auto;
+            padding: 10px;
+            margin: 10px;
+            display: block;
+            text-align: center;
+            
+
+        }
+        .card img{
+            width: auto;
+            height: 140px;
+            border-radius: 5px;
+            padding-bottom: 0;
+            /* padding: 10px; */
+        }
+        .text-heading{
+            margin-top: 4px;
+            padding-top: 0;
+            color: #fff;
+            background-color: #181A1B;
+            font-weight: 450;
+            text-align: left;
+            font-family: Rubik;
+            /* font-style: bold; */
+        }
+        .line{
+            border: 0;
+            border-top: 1.5px solid #3f3f3f;
+            width: 75%;
+            box-sizing: border-box;
+            position: relative;
+            left: -30px;
+        }
+        .text{
+            display: flex;
+            background-color: #181A1B;
+        }
+        .t1{
+            color: #6E9ECF;
+            font-size: 12px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: 10px;
+        }
+        .t2{
+            color: rgb(141, 133, 133);
+            font-size: 12px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: 10px;
+        }
+        .button-box{
+            color: #fff;
+            background-color: #1DD1A1;
+            box-sizing: border-box;
+            font-size: 10px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            padding: 2px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #212222;">
+    <div class="b">
+    <div class="box">
+        <div class="card">
+            <img src="img1.jpg">
+            <p class="text-heading">Web Development Master Course @dot Batch</p>
+            <hr class="line">
+            <div class="text">
+                <p class="t1">₹4500</p>
+                <strike style=" color: rgb(141, 133, 133)"><p class="t2">₹6999</p></strike>
+                <p class="button-box">42% off</p>
+            </div> 
+        </div>
+        <div class="card">
+            <img src="img2.jfif">
+            <p class="text-heading">Data Structures & Algorithms BootCamp @Supreme Batch</p>
+            <hr class="line">
+            <div class="text">
+                <p class="t1">₹3500</p>
+                <strike style=" color: rgb(141, 133, 133)"><p class="t2">₹7000</p></strike>
+                <p class="button-box">50% off</p>
+            </div> 
+        </div>
+        <div class="card">
+            <img src="img3.jpeg">
+            <p class="text-heading">Web Development Master Course @dot Batch</p>
+            <hr class="line">
+            <div class="text">
+                <p class="t1">₹555</p>
+                <strike style=" color: rgb(141, 133, 133)"><p class="t2">₹ 999</p></strike>
+                <p class="button-box">44% off</p>
+            </div> 
+        </div>
+    </div>
+    </div>
+</body>
+</html>
