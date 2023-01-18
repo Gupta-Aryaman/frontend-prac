@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url(Raleway-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+
+.wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #FFFFFF;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    /* border: 2px solid black; */
+    grid-template-columns: 1;
+    grid-template-rows: 2fr 46fr 1fr;
+    grid-gap: 10px;
+}
+
+.container .hd{
+    /* padding: 20px; */
+    /* margin-top: 2em; */
+    padding: 0em 5em 0em 5em ;
+    margin: 2em 5em 8em 5em;
+    display: flex;
+    justify-content: space-between;
+}
+.container .hd .img{
+    align-items: left;
+}
+
+.container .hd .headings{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+    align-items: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    list-style-type: none;
+    list-style: none;
+    
+
+}
+
+.container .hd .headings li a{
+    color: black;
+    text-decoration: none;
+}
+
+.container .hd .headings li a:hover{
+    text-decoration: none;
+    color: #4E5DC0;
+    border-bottom: 2px solid #4E5DC0 ;
+    padding-bottom: 3px;
+}
+
+
+.container .hd button{
+    width: 109px;
+    height: 24px;
+    left: 1233px;
+    top: 68px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    width: 165px;
+    height: 54px;
+    left: 1205px;
+    top: 54px;
+    border: 0px;
+    background: #4E5DC0;
+    border-radius: 5px;
+}
+
+hr{
+    border: 1px solid #4E5DC0;
+    width: 37px;
+    height: 0px;
+    transform: translateX(2px) translateY(5px);
+}
+
+.container .content .box1{
+    display: flex;
+    margin: 10em;
+    gap: 50px;
+}
+
+.container .content .box1 p{
+    height: 272px;
+    width: 573px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    opacity: 0.5;
+
+
+}
+.container .content .box1 h1{
+    font-family:'Roboto',flex, sans-serif;
+    width: 255px;
+    /* height: 0px; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
