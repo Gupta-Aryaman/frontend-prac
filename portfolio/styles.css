@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: rgb(238, 237, 237);
+    height: 100vh;
+}
