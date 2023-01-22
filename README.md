@@ -5,3 +5,5 @@ Click the links below to view the the pages-
 3) card-gridApplication - https://gupta-aryaman.github.io/frontend-prac/card-gridApplication/index.html
 4) codehelp-webpage - https://gupta-aryaman.github.io/frontend-prac/codehelp-webpage/index.html
 5) modern-button - https://gupta-aryaman.github.io/frontend-prac/button-animation/index.html
+6) portfolio - https://gupta-aryaman.github.io/frontend-prac/portfolio/index.html
+7) modern-chair - https://gupta-aryaman.github.io/frontend-prac/modern-chair/index.html
