@@ -56,6 +56,7 @@
 
 .container .b1{
     position: relative;
+    width: fit-content;
     background-color: #e84949;
     color: white;
     padding: 0.8rem 2.3rem;
@@ -102,4 +103,55 @@
     margin: 4rem auto;
     padding: 0 1rem;
     padding-bottom: 8rem;
+}
+
+.hero .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 2rem;
+}
+
+.hero .text .l1{
+    font-size: 35px;
+    color: #343d68;
+    font-weight: 500;
+}
+
+.hero .text .l2{
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.role{
+    color: #4e45d5;
+    font-weight: 800;
+}
+
+.hero .text .l3{
+    margin-top: 1rem;
+    width: 70%;
+    font-weight: 500;
+}
+
+.hero .pic{
+    position: relative;
+    left: -100px;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.hero .pic img{
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.hero .pic .pfp{
+
 }

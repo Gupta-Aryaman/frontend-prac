@@ -23,23 +23,55 @@
             </div>
             <div class="hero">
                 <div class="text">
-                    <p class="l1">Hi! I am John Doe</p>
-                    <p class="l2">I am a <span></span></p>
+                    <p class="l1">Hi! John Doe</p>
+                    <p class="l2">I am a <span class="role"></span></p>
                     <p class="l3">I’m a software developer and here is my portfolio website. Here you’ll learn about my journey as a software developer.</p>
                     <button class="b1">
                         Hire Me
                     </button>
                 </div>
                 <div class="pic">
-                    <img src="./images/userAsset/UserImage.png" alt="">
-                    <img src="./images/userAsset/circle.png" alt="">
-                    <img src="./images/userAsset/cube.png" alt="">
-                    <img src="./images/userAsset/dots.png" alt="">
-                    <img src="./images/userAsset/plus.png" alt="">
-                    <img src="./images/userAsset/zigzags.png" alt="">
+                    
+                    <div class="absolute">
+                        <img src="./images/userAsset/UserImage.png" class="pfp">
+                    </div>
+                    <div class="absolute">
+                        <img src="./images/userAsset/circle.png" class="circle">
+                    </div>
+                    <div class="absolute">
+                        <img src="./images/userAsset/cube.png" class="cube">
+                    </div>
+                    <div class="absolute">
+                        <img src="./images/userAsset/dots.png" class="dots">
+                    </div>
+                    <div class="absolute">
+                        <img src="./images/userAsset/plus.png" class="plus">
+                    </div>
+                    <div class="absolute">
+                        <img src="./images/userAsset/zigzags.png" class="zigzags">
+                    </div>
+                    
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+        strings: [
+            "Full Stack Developer",
+            "Web Developer",
+            "UI-UX Designer",
+            "Backend Developer",
+            "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+        });
+    </script>
 </body>
 </html>
