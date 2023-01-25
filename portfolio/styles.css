@@ -555,3 +555,41 @@
 .about-me p{
     margin: 15px 0;
 }
+
+.footer{
+    position: relative;
+    margin-top: 10em;
+    background-color: #343d68;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.footer-left{
+    display: flex;
+    gap: 15px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.footer-right{
+    display: flex;
+    gap: 15px;
+}
+
+.footer-right .icon{
+    color: white;
+    font-size: 40px;
+}
+
+.footer-heading{
+    user-select:none;
+    font-size: 7em;
+    color:#5d6bb152;
+    
+    bottom: 0%;
+    left: 0%;
+}
